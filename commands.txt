@@ -1,0 +1,25 @@
+ruby -v
+gem -v
+
+gem install jekyll bundler
+
+jekyll new myblog
+cd myblog
+bundle exec jekyll serve
+
+
+rubygems.org  
+>> search 'jekyll-theme' 
+>> Clone a theme from github 
+>> install necessary packages (bundle install) 
+>> edit _config.yml 
+>> (Prepare the site )
+>> jekyll serve (To see in localhost)
+>> jekyll clean (when done development)
+>> jekyll build (gengerate deployment content in _site)
+>> (move _site content to repo: mrhasankthse.github.io)
+>> (push to git)
+
+
+For easy table creation:
+Use table generators from https://www.tablesgenerator.com/html_tables
